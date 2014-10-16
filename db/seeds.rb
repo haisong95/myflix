@@ -1,7 +1,20 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+      comedies = Category.create(name: "comedies")
+      dramas = Category.create(name: "dramas")
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: comedies, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
+      futurama = Video.create(title: "Futurama", description: "space travel", category: dramas, small_cover_url: "tmp/family_guy.jpg", large_cover_url: '/tmp/monk_large.jpg')
