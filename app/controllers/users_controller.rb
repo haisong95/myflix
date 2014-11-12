@@ -8,11 +8,11 @@ class UsersController < ApplicationController
       if @user.save
         redirect_to sign_in_path
       else
-        render "pages/front"
+        render :new
       end
     end
 
     def user_params
-      params.require(:user).permit(:full_name, :email, :password)
+      params.require(:user).permit(:full_name, :email, :password, :password_confirmation)
     end
 end
